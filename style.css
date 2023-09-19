@@ -157,4 +157,7 @@ h3 {
     .blank{
       min-height: 40vh;
     }
+    header{
+      gap: 0;
+    }
   }
