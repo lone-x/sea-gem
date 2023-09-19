@@ -4,6 +4,22 @@
 }
 body{
     font-family: 'Red Hat Text', sans-serif;
+    margin: 0;
+}
+header{
+  background-color: rgba(128, 128, 128, 0.784);
+  display: flex;
+  justify-content: center;
+  gap: 10em;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+header a{
+  background-color: transparent;
+  color: white;
+  font-weight: lighter;
+  text-transform: capitalize;
 }
 .container{
     text-align: center;
@@ -121,6 +137,17 @@ h3 {
   .img-third{
     background-image: url(images/Absolute_Reality_v16_cowrie_shell_black_backgrond_ultra_realis_1.jpg);
   }
+  .item:hover{
+    background-color: rgba(108, 101, 101, 0.387);
+  }
+  a:hover{
+    background-color: #746f6f;
+    scale: 1.10;
+  }
+  header a:hover{
+    scale: 1.15;
+  }
+
 
   @media (max-width: 740px){
     .second{
